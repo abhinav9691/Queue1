@@ -5,3 +5,5 @@ queue1.Enqueue(56);
 queue1.Enqueue(30);
 queue1.Enqueue(70);
 queue1.DisplayQueue();
+queue1.Dequeue();
+queue1.DisplayQueue();

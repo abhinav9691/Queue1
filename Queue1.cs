@@ -24,6 +24,22 @@ namespace Queue
                 rear = rear.Next;
             }
         }
+
+        public void Dequeue()
+        {
+            if (this.front == null)
+            {
+                Console.WriteLine("Queue is Empty");
+            }
+            else
+            {
+                while (this.front != null)
+                {
+                    Console.WriteLine("{0} is the Deleted Element in the Queue--", this.front.Data);
+                    this.front = this.front.Next;
+                }
+            }
+        }
         public void DisplayQueue()
         {
 
